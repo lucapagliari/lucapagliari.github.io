@@ -58,9 +58,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Luca Pagliari"
+  avatar : "/assets/images/lego-wizard.webp"
+  bio    : "Appassionato di tecnologia ed intelligenza artificiale di giorno, potente stregone di notte."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
