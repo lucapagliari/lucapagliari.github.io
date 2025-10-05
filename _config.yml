@@ -1,0 +1,22 @@
+title: Oltre il Copilota
+description: Analisi tecniche e riflessioni sull’AI di Microsoft e non solo
+locale: it-IT
+timezone: Europe/Rome
+
+url: https://oltreilcopilota.it
+baseurl: ""
+
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+
+author:
+  name: Luca Pagliari
+  bio: |
+    Mi occupo di progetti e formazione tecnica sulle tecnologie AI Microsoft, con un occhio particolare su Copilot Studio e Azure AI Foundry.
+    Nerd per natura, mi piace studiare e sperimentare nuove tecnologie. 
+    In *Oltre il Copilota* troverete commenti sulle ultime novità, tutorial e molto altro.
+    Condivido esperienze e prove sul campo: se hai un’opinione diversa o un esempio migliore, contattami!
