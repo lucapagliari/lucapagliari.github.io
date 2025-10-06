@@ -2,21 +2,48 @@ title: Oltre il Copilota
 description: Tutorial, esperimenti e riflessioni sull’AI Microsoft
 locale: it-IT
 timezone: Europe/Rome
-
 url: https://oltreilcopilota.it
 baseurl: ""
 
-remote_theme: "mmistakes/so-simple-theme@3.2.0"
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
 plugins:
-  - jekyll-remote-theme
+  - jekyll-include-cache
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
+
+# --- MM options ---
+theme_skin: "air"       
+search: true               
+breadcrumbs: true
+paginate: 10
+paginate_path: "/page:num/"
 
 author:
   name: Luca Pagliari
+  avatar: /assets/images/avatar.jpg
   bio: |
     Mi occupo di progetti e formazione tecnica sulle tecnologie AI Microsoft, con un occhio particolare su Copilot Studio e Azure AI Foundry.
-    Nerd per natura, mi piace studiare e sperimentare nuove tecnologie. 
-    In *Oltre il Copilota* troverete commenti sulle ultime novità, tutorial e molto altro.
-    Condivido esperienze e prove sul campo: se hai un’opinione diversa o un esempio migliore, contattami!
+    Curioso per natura, mi piace studiare e sperimentare nuove tecnologie. 
+    Condivido la mia esperienza: se hai un’opinione diversa o un esempio migliore, contattami!
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/lucapagliari"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/lucapagliari365/"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true

@@ -1,6 +1,9 @@
 ---
-layout: home
-title: Home
+layout: single
+title: "About"
+permalink: /about/
+author_profile: false
+toc: true
 ---
 
 Benvenuto su **Oltre il Copilota**!
