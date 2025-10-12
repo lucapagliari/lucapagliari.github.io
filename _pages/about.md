@@ -10,15 +10,17 @@ Lavoro, studio e sperimento quasi ogni giorno con tecnologie AI Microsoft, in pa
 
 Tutti i contenuti sono scritti da una persona reale, con rispetto per chi legge.
 
-<p>Email: <a id="contact-email" rel="nofollow">loading…</a></p>
-<script>
-  (function() {
-    const u = "luca";
-    const d = "oltreilcopilota.it";
-    const a = u + "@" + d;
-    const el = document.getElementById("contact-email");
-    el.href = "mailto:" + a + "?subject=Hi%20Luca";
-    el.textContent = a;
-  })();
-</script>
-<noscript>luca [at] oltreilcopilota [dot] it</noscript>
+<form action="https://formspree.io/f/xvgwvozl" method="POST">
+  <label>
+    La tua email:
+    <input type="email" name="email" required>
+  </label>
+  <label>
+    Il tuo messaggio:
+    <textarea name="message" rows="5" required></textarea>
+  </label>
+
+  <input type="text" name="_gotcha" style="display:none">
+
+  <button type="submit">Invia</button>
+</form>
