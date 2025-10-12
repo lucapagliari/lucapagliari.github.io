@@ -68,7 +68,7 @@ it: &DEFAULT_IT
   skip_footer                :
   page                       : "Pagina"
   pagination_previous        : "Precedente"
-  pagination_next            : "Prossima"
+  pagination_next            : "Successiva"
   breadcrumb_home_label      : "Home"
   breadcrumb_separator       : "/"
   menu_label                 :
